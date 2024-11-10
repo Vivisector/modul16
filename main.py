@@ -20,6 +20,6 @@ async def admin():
 async def user_id(user_id: int):
     return f'Вы вошли как пользователь № {user_id}'
 
-@app.get('/user/')
+@app.get('/user')
 async def user_FIO(user_name: str, age: int):
     return f'Информация о пользователе. Имя: {user_name}. Возраст: {age}'
