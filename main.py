@@ -8,7 +8,7 @@ async def welcome():
     # return {'message': "Главная страница"}
     return "Главная страница"
 
-@app.get("/user/admin/")
+@app.get("/user/admin")
 # async def news(first_name: str, last_name: str) -> dict:
 # можно и без аннотации ->dict.
 async def admin():
